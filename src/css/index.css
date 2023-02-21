@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#bgDiv{
+    background-image: url("../img/graduate.jpg");
+}
+#imgEst{
+   /* background-image: url("../img/estf.jpg");*/
+   
+}
