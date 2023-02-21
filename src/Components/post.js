@@ -5,7 +5,7 @@ class Post extends React.Component {
 render() {
 return (
    
-    <div className="flex items-center justify-center w-screen z-20 pb-9">
+    <div className="flex items-center justify-center w-screen z-20 mt-16 pb-9">
    
                    <div className="w-full md:w-1/2 p-4">
                        <h1 className="text-3xl font-bold mb-4">Latest Posts</h1>

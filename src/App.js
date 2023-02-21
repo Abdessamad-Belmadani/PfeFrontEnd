@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './Components/navbar.js'
 import Footer from './Components/footer.js'
-import Home from './Components/home'
+import Home from './Components/home.js'
 import Login from './Components/login'
 import Aboutus from './Components/aboutus'
 import { Route, Routes,BrowserRouter as Router } from "react-router-dom";
@@ -10,11 +10,11 @@ import { Route, Routes,BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <div className='w-screen' >
       <header className="sticky top-0 z-50">
        <Navbar/>
       </header>
-      <main>
+      <main className='w-screen'>
       <Router>
         <Routes>
           <Route path="/" element={<Home/>}/>
