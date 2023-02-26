@@ -34,7 +34,7 @@ class Home extends React.Component {
         <div className=" absolute container mx-auto p-8 ">
           
           <div className="  ">
-                <Link/>      
+            {/* <Link/>       */}
             <Post/>
           </div>
         </div>

@@ -4,6 +4,8 @@ import Footer from './Components/footer.js'
 import Home from './Components/home.js'
 import Login from './Components/login'
 import Aboutus from './Components/aboutus'
+import Departement from './Components/departement'
+import Departementt from './Components/test'
 import { Route, Routes,BrowserRouter as Router } from "react-router-dom";
 
 
@@ -19,6 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/login" element={<Login/>}/>
+          <Route path="/departement" element={<Departement/>}/>
           <Route path="/aboutus" element={<Aboutus/>}/>
         </Routes>
       </Router>
