@@ -6,6 +6,7 @@ import Login from './Components/login'
 import Aboutus from './Components/aboutus'
 import Departement from './Components/departement'
 import Departementt from './Components/test'
+import Dashboard from './Components/dashboard'
 import { Route, Routes,BrowserRouter as Router } from "react-router-dom";
 
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/login" element={<Login/>}/>
           <Route path="/departement" element={<Departement/>}/>
+          <Route path="/dashboard" element={<Dashboard/>}/>
           <Route path="/aboutus" element={<Aboutus/>}/>
         </Routes>
       </Router>
